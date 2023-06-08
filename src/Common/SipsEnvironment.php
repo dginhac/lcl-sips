@@ -8,9 +8,9 @@ use Worldline\Sips\Common\Exception\InvalidEnvironmentException;
 class SipsEnvironment
 {
     private $possibleEnvironments = [
-        "SIMU" => "https://payment-webinit.simu.sips-services.com/",
-        "TEST" => "https://payment-webinit.test.sips-services.com/",
-        "PROD" => "https://payment-webinit.sips-services.com/",
+        "SIMU" => "https://sherlocks-payment-webinit-simu.secure.lcl.fr/paymentInit",
+        "TEST" => "",
+        "PROD" => "https://sherlocks-payment-webinit.secure.lcl.fr/paymentInit",
     ];
     private $environment;
 
