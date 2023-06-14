@@ -140,7 +140,7 @@ class PaypageRequest extends SipsMessage
     public function __construct()
     {
         $this->interfaceVersion = "IR_WS_2.19";
-        $this->setTransactionReference($this->generateReference());
+        //$this->setTransactionReference($this->generateReference());
     }
 
     /**
